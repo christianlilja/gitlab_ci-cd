@@ -364,10 +364,8 @@ cat ~/.kube/config | base64
 
 ## Notes
 - This guide uses GitLab CI/CD, but you can mirror the repo to GitHub for documentation or hybrid workflows.
-- Replace placeholder URLs (`swarm.example.com`, `k8s.example.com`) with actual deployment endpoints.
+- Replace placeholder URLs (`swarm.example.com`, `k8s.example.com`) with your own actual deployment endpoints.
 - Regularly update GitLab Runner and dependencies:
   ```bash
   sudo apt update && sudo apt upgrade gitlab-runner
   ```
-
-For further details, see the [GitLab CI/CD documentation](https://docs.gitlab.com/ee/ci/) or open an issue in this repository.
